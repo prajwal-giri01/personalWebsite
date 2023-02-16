@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Oxygen+Mono&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/395c3cdf5e.js" crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+    
+<div id="main-container"> 
+    <!-- ----------------------------nav-bar----------------     -->
+    <div class="container-nav hide" id="sidemenu">
+        <div class="menu-close" onclick="closemenu()">   <i class="fa-solid fa-xmark" ></i></div>
+        <nav>
+            <ul >
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li> 
+                <li> <a href="#skill">Skills</a></li>
+                <li><a href="#Education">Educatation</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#reference">Refrence</a></li>
+               
+             </ul>
+            
+        </nav>
+        
+    </div>
+    <div  class="menu-btn" onclick="openmenu()"> <i class="fa-solid fa-bars" ></i></div>
+
+            
+    <!-- --------------------------main-home---------------------- -->
+    <div id="Home" class="home">
+        <div class="container-home">
+            <div class="home-col-1">
+                <img src="mainImg.jpg" alt="my image">
+            </div>
+            <div class="home-col-2">
+                <h2> Hi! I am</h2>
+                <h1>Prajwal <span> Giri</span></h1>
+                <p>A Student of Herald college.</p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- ---------------------------about-me-----------------  -->
+    <div id="About">
+        <div class="container-about">
+            <div class="image">
+                <img src="mainImg.jpg" alt="second image">
+            </div>
+            <div class="text">
+                <h2> About Me</h2>
+                <p> I am Prajwal Giri, a 19-year-old student currently studying for a Bachelor's degree in Computer
+                    Science at Herald
+                    College Kathmandu, which is directly affiliated with the University of Wolverhampton. I was born and
+                    raised in Jhapa,
+                    Nepal and completed my +2 education at Devi Secondary School with a GPA of 2.95. Currently, I am
+                    residing in Kathmandu
+                    to continue my higher studies.In my free time, I enjoy playing mobile games and have been learning
+                    to play various string
+                    instruments such as guitar, ukulele, and bass guitar.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+<!-- ---------------------------------------------skills------------------------------- -->
+
+    <div id="skill">
+        <h2> Skills</h2>
+        <div class="card-1">
+            <h2> Programming skills</h2>
+            <ul>
+                <li> Python</li>
+                <li> Java</li>
+                <li> C-programming</li>
+            </ul>
+        </div>
+        <div class="card-2">
+            <h2> Web Development Skills</h2>
+            <ul>
+                <li> HTML</li>
+                <li> CSS</li>
+                <li> JavaScript</li>
+            </ul>
+        </div>
+        <div class="card-3">
+            <h2> Other Skills</h2>
+            <ul>
+                <li> Guitar</li>
+                <li> Ukulele</li>
+                <li> Base Guitar</li>
+            </ul>
+        </div>
+
+    </div>
+<!-- -----------------------------------------------------------education-------------------------------- -->
+    <div id="Education">
+        <h2> Educatation</h2>
+        <div id="school">
+            <h3> SEE</h3>
+            <h4> Balmiki Educatation Foundation</h4>
+            <h4> 3.1 GPA</h4>
+        </div>
+        <div id="college">
+            <h3> SLC</h3>
+            <h4> Devi Secondary School</h4>
+            <h4> 2.95 GPA</h4>
+        </div>
+        <div id="Bachelor">
+            <h3> Bachelor</h3>
+            <h4> Herald College Kathmandu</h4>
+            <h4> Ongoing</h4>
+        </div>
+    </div>
+
+    <!-- -------------------------------------contact---------------------------- -->
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <form onsubmit="showAlert()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <div id="social-links">
+        <a class="one" href="https://www.facebook.com/01prajwal" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="two" href="https://www.linkedin.com/in/prajwal-gire-37603125a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a class="three" href="prajwalgiri02@email.com"> <i class="fa-sharp fa-solid fa-envelope"></i> </a>
+    </div>
+    <!-- -------------------------------references------------------------------------ -->
+    <div id="reference"> 
+        <h2> References</h2>
+         
+            <p>"https://fonts.googleapis.com"</p>
+            <p>"https://fonts.gstatic.com"</p>
+            <p>"https://fonts.googleapis.com/css2?family=Aboreto&family=Oxygen+1<br>Mono&display=swap"</p>
+            <p>"https://kit.fontawesome.com/<br>395c3cdf5e.js"</p>
+        
+    </div> 
+
+</div>
+
+
+</body>
+
+</html>
